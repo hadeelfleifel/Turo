@@ -80,7 +80,7 @@
                         <h1>Landing page</h1>
                 </div>
             @endif
-                <h1>Landing page</h1>
+                <h1>Landing pages</h1>
                 @foreach($Cities as $value)
 
                 <a href="{{ url('/city') }}/{{$value['id']}}">
